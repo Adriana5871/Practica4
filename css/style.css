@@ -1,0 +1,375 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.logo{
+	background-color: black;
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 20px;
+
+}
+.social{
+	font-size: 28px;
+	position: relative;
+	top: 40px;
+	right: 30px;
+	text-align: right;
+}
+.social a{
+	color: white;
+	text-decoration: none;
+	margin-right: 8px;
+}
+.main-menu-ProBlogConta{
+	text-align: right;
+}
+.main-menu-ProBlogConta ul {
+	list-style: none;
+}
+.main-menu-ProBlogConta ul li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.main-menu-ProBlogConta ul li a {
+	color: black;
+	font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px; 
+    padding-bottom: 5px;
+    text-decoration:none;
+    transition: all 0.2s ease-in;
+}
+.main-menu-ProBlogConta ul li a:hover{
+	color: black;
+	border-bottom: 2px solid black;
+}
+.slider img{
+	width: 100%;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1170px;
+}
+.Oferta-academica{
+	text-align: right;
+	 position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.oferta-academica .container {
+	display: flex;
+	justify-content: space-around;
+}
+.title-section{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10PX;
+	padding-bottom: 10PX;
+}
+
+.title-Oferta-academica{
+	color: black;
+}
+.card{
+	border: 1px solid #D6D2D2;
+	border-radius:5px;
+	overflow: hidden;
+	width: 30%;
+}
+.contenedor{
+	position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.card-hero{
+	position: relative;
+}
+.card-hero-producto{
+	position: relative;
+}
+.card-hero-producto img{
+      width: 100%;
+}
+.card-hero img{
+	width: 100%;
+}
+.card-hero:hover .btn-card-show{
+    display: block;
+}
+.btn-card-show{
+	background-color: blue;
+	color: white;
+	display: none;
+	height: 20px;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	top: 50%;
+    width: 100px;
+}
+.btn-card-show:hover{
+	background-color: blue;
+}
+.card-title{
+	text-align: center;
+}
+
+.card-title::after{
+	content: '';
+	display: block;
+	background-color: white;
+	height: 1px;
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+	margin-top: 5px;
+
+}
+.card-list{
+	color: #999999;
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+}
+.card-list li{
+	padding-bottom: 5px;
+}
+.contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.title-contact{
+	background-color: black;
+	color: white;
+}
+.img-contact{
+	margin: 0;
+}
+.img-contact img {
+	width: 100%;
+}
+
+.contact-form input[type="text"]{
+	display: block;
+}
+
+
+
+
+.footer{
+	
+	background-color: black;
+	color:#FFB606;
+	padding-bottom: 10px;
+	text-align: center;  
+	position: relative;
+	margin-top: 50px;
+}
+
+.final{
+	text-decoration: none;
+
+}
+.final1 ul li{
+	display: inline-block;
+	margin: 5px 10px;
+	
+}
+.final1 ul li a{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.final1 ul li a:hover{
+	color: blue;
+	border-bottom: 2px solid black;
+}
+.form-contaSuscribete{
+    top: 10px;
+    left: 1000px;
+}
+.form-contaSuscribete i {
+	color: white;
+}
+.form-contaSuscribete{
+	text-align: right;
+	position: absolute;
+}
+.contenedor_1{
+    text-align: center;
+}
+/*Productos*/
+.general{
+	margin: auto;
+	width: 1200px;
+	height: 800px;
+	background-color: black;
+}
+.title-section-producto{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10PX;
+	padding-bottom: 10PX;
+}
+
+.title-Oferta-academica-producto{
+	color: white;
+}
+.card-title-producto{
+	color: white;
+	text-align: center;
+}
+
+.card-title-producto::after{
+	content: '';
+	display: block;
+	background-color: blue;
+	height: 1px;
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+	margin-top: 5px;
+}
+.etiqueta{
+	color: white;
+	text-align: right;
+}
+.etiqueta1{
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px
+}
+/*Contacto*/
+.general-contacto{
+	margin: auto;
+	width: 1260px;
+	height: 600px;
+	background-color: white;
+	display: inline-block;
+}
+.general-contacto1{
+	margin: auto;
+	margin-left: 10px;
+	width: 600px;
+	height: 600px;
+	background-color: black;	
+	float: left;
+	display:inline-grid;
+}
+.general-contacto2{
+	margin: auto;
+	margin-right: 10px;
+	width: 600px;
+	height: 600px;
+	background-color: black;	
+	float: right;
+	text-align: center;
+
+}
+.text-contac{
+	color: white;
+	text-align: center;
+
+}
+.contact-form{
+	display: inline-block;
+	flex-direction: column;
+	padding: 0 30px 30px
+}
+.form-control{
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 16px;
+	width: initial;
+	margin: 15px 0;
+	padding: 7px 0;
+
+}
+.btn-contact{
+	background-color: #227BDC;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.col{
+	color: white;
+}
+
+/*Large*/
+@media screen and (max-width: 1200px) {
+	
+}
+@media screen and (max-width: 768px) {
+	.main-header {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo {
+		order: 2;
+	}
+	.social {
+		background-color: #32618D;
+		position: initial;
+		display: flex;
+		justify-content: flex-end;
+		order: 1;
+		padding-top: 10px;
+		padding-right: 20px;
+	}
+	.main-menu {
+		order: 3;
+	}
+	.main-menu ul li {
+		display: block;
+		padding-bottom: 5px;
+	}
+	
+	.oferta-academica .container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0 15px;
+	}
+	.card {
+		width: 45%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+	.contact .container {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		background-color: pink;
+	}
+	.card {
+		width: 100%
+	}
+}
+
+
+
+
+
+
+
+
